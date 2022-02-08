@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-color: #f5f3f3;
+}
+
+.TotalContainer {
+    height: 100vh;
+    position: relative;
+}
+
+.Home{
+    height: 100%;
+    width: 100%;
+}
+
+.AppContainer {
+    display: flex;
+    width: 975px;
+    margin: auto;
+    padding-top: 40px;
+}
+
+.FeedContainer{
+    width: 600px;
+}
+
+.PostInputContainer{
+    width: 400px;
+}
+
+.SavePostContainer{
+    width: 1000px
+}
+
+.LoginContainer {
+    width: 1000px;
+}

@@ -1,0 +1,78 @@
+
+.QuestionBoxContainer {
+    position: fixed;
+    top: 85px;
+}
+
+
+.QuestionBox{
+    padding-left: 20px;
+    padding-right: 20px;
+    height: auto;
+}
+
+
+.titleArea{
+    width: 350px;
+    height: 50px;
+    border-radius: 5px;
+    border: 1px lightgray solid;
+    display: grid;
+    outline: none;
+    font-size: 18px;
+    padding-left: 10px;
+    padding-top: 5px;
+    resize: none;
+    margin-bottom: 25px;
+}
+
+textarea::placeholder{
+    color: #949494;
+}
+
+
+.bodyArea{
+    width: 350px;
+    height: 250px;
+    border-radius: 5px;
+    border: 1px lightgray solid;
+    display: grid;
+    outline: none;
+    font-size: 18px;
+    padding-left: 10px;
+    padding-top: 5px;
+    resize: none;
+    margin-bottom: 25px;
+}
+
+.ButtonBox{
+    padding-top: 20px;
+}
+
+.disabledButton{
+    padding: 7px 10px ;
+    border-radius: 5px;
+    border: none;
+    margin: 10px 0;
+    float: right;
+    background-color: #5d98bd;
+    color: #e0e0e0;
+    pointer-events: none;
+    font-size: 18px;
+}
+
+.TweetButton {
+    padding: 7px 10px ;
+    background-color: #1da1f2;
+    border-radius: 5px;
+    border: none;
+    margin: 10px 0;
+    float: right;
+    color: white;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.TweetButton:hover{
+    background-color: #2088c9;
+}

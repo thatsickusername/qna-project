@@ -1,0 +1,57 @@
+.SidebarContainer {
+    position: sticky;
+    top: 0;
+    display: grid;
+    width: 100%;
+    background-color: #ffffff;
+    border-bottom: 1px solid #dbdbdb;
+    z-index: 3;
+}
+
+.Sidebar {
+    width: 975px;
+    margin: auto;
+    font-size: 20px;
+    display: flex;
+}
+
+.logoHead{
+    padding: 10px 0;
+    cursor: pointer;
+}
+
+.RightSide{
+    width: fit-content;
+    margin-left: auto;
+    display: flex;
+    font-size: 20px;
+}
+
+
+.SidebarLayout {
+    padding: 10px 0;
+    width: fit-content;
+    cursor: pointer;
+    color: rgb(39, 39, 39);
+    display: flex;
+}
+
+.SidebarLayout h4{
+   text-transform: capitalize;
+}
+
+.ActiveMenu {
+    color:rgba(29,161,242,1.00)
+}
+
+.SidebarLayout .H4text{
+    margin-left: 20px;
+}
+
+.SidebarLayout:hover {
+    color:rgba(29,161,242,1.00) !important;
+}
+
+.LinkClass {
+    text-decoration: none;
+}

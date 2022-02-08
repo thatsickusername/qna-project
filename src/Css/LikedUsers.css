@@ -1,0 +1,43 @@
+.LikedUsersContainer {
+    width: 400px;
+    position: fixed;
+    top: 85px;
+}
+
+.LikedUserTitle{
+    font-size: 25px;
+    color: rgb(39, 39, 39);
+    padding-left: 20px;
+    margin: 15px 0;
+}
+
+.LikedUserBox{
+    margin-left: 20px;
+    width: 360px;
+    border-radius: 5px;
+    background-color: #ffffff;
+    border-top: 1px lightgray solid;
+    border-left: 1px lightgray solid;
+    border-right: 1px lightgray solid;
+}
+
+.LikedUser{
+    padding: 10px 20px;
+    border-bottom: 1px solid #dbdbdb;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 5px;
+}
+
+.LikedName {
+    font-size: 15px;
+    font-weight: 500;
+    margin-right: 7px;
+    color: #627481;
+    cursor: pointer;
+}
+
+.LikedName:hover{
+    color:#2d363b;
+    text-decoration: underline;
+}

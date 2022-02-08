@@ -1,0 +1,70 @@
+.SinglePostContainer {
+    height: 100vh;
+    width: 1300px;
+    margin: auto;
+    display: flex;
+}
+
+.PostMarkup {
+    width: 600px;
+}
+
+.CommentsCard{
+    background-color: #ffffff;
+    margin: 20px 0;
+    border-radius: 7px;
+    border: 1px solid #dbdbdb;
+}
+
+.CreateCommentContainer{
+    padding: 30px 30px 80px;
+}
+
+.CommentInput {
+    width: 530px;
+    height: 150px;
+    border-radius: 5px;
+    border: 1px lightgray solid;
+    display: grid;
+    outline: none;
+    font-size: 18px;
+    padding-left: 10px;
+    padding-top: 5px;
+    resize: none;
+}
+
+.CreateCommentContainer textarea::placeholder{
+    color: #94a2ac;
+    font-size: 18px;
+}
+
+.CommentButton{
+    padding: 7px 10px ;
+    background-color: #1da1f2;
+    border-radius: 5px;
+    border: none;
+    margin: 20px 0;
+    float: right;
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.CommentButton:disabled{
+    background-color: #5d98bd;
+    color: #cecece;
+    pointer-events: none;
+}
+
+.noComment{
+    margin-bottom: 20px;
+}
+
+.noComment h4 {
+    width: 100%;
+    text-align: center !important;
+}
+
+.CommentContainer{
+    border-top: 1px lightgray solid;
+}

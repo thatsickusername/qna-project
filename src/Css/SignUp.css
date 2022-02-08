@@ -1,0 +1,15 @@
+.formContainer {
+    height: 100vh;
+    display: grid;
+    place-content: center;
+}
+
+.formContainer form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.formContainer form input{
+    margin-bottom: 20px;
+}

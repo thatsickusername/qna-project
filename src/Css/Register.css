@@ -1,0 +1,86 @@
+.RegisterContainer{
+    width: 300px;
+}
+
+.Loading input{
+    display: none;
+}
+
+.Loading div {
+    display: none;
+}
+
+.Loading button{
+    display: none;
+}
+
+.Form{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.Form h1{
+    color: rgb(34, 34, 34);
+    padding-bottom: 20px;
+}
+
+
+.Form input{
+    border-radius: 5px;
+    border: 1px lightgray solid;
+    display: grid;
+    outline: none;
+    font-size: 18px;
+    padding-left: 10px;
+    padding-top: 5px;
+    margin-bottom: 10px;
+}
+
+.Form button{
+    padding: 7px 10px ;
+    background-color: #1da1f2;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.Form button:hover{
+    background-color: #2088c9;
+}
+
+.list{
+    margin-top: 20px;
+    border-radius: 5px;
+    border: 1px rgb(255, 140, 140) solid;
+    padding: 10px 10px;
+    background-color: rgb(255, 218, 218);
+}
+
+.list h5{
+    font-size: 12px;
+    color: rgb(219, 48, 48);
+}
+
+.LoginRegisterToggle h4{
+    color: #627481;
+    font-size: 15px;
+    font-weight: 500;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.LoginRegisterToggle h4 span{
+    padding-left: 5px;
+    font-weight: 700;
+    
+    cursor: pointer;
+    color: #2088c9;
+    transition: 0.2s;
+}
+
+.LoginRegisterToggle h4 span:hover{
+    color: rgb(34, 34, 34);
+}
